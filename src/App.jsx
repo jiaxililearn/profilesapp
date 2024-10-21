@@ -71,6 +71,7 @@ export default function App() {
           </Flex>
         ))}
       </Grid>
+
       <Button onClick={signOut}>Sign Out</Button>
     </Flex>
   );
