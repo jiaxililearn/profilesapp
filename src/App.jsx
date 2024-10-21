@@ -15,11 +15,7 @@ import outputs from "../amplify_outputs.json";
 /**
  * @type {import('aws-amplify/data').Client<import('../amplify/data/resource').Schema>}
  */
-// console.log("outputs")
-// console.log(outputs)
 Amplify.configure(outputs);
-// const currentConfig = Amplify.getConfig();
-// console.log(currentConfig)
 const client = generateClient({
   authMode: "userPool",
 });
